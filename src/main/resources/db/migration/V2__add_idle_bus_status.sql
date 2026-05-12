@@ -1,0 +1,1 @@
+ALTER TYPE bus_status_enum ADD VALUE IF NOT EXISTS 'IDLE';
