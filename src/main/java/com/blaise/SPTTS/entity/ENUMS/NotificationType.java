@@ -1,0 +1,5 @@
+package com.blaise.SPTTS.entity.ENUMS;
+
+public enum NotificationType {
+    BUS_REQUEST, CONFIRMATION, ETA_UPDATE, SYSTEM_ALERT, LOCATION_UPDATE, PAYMENT_CONFIRMED, TRIP_RATED
+}

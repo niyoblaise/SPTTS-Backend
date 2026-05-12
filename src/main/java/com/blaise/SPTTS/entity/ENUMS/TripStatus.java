@@ -1,0 +1,5 @@
+package com.blaise.SPTTS.entity.ENUMS;
+
+public enum TripStatus {
+    REQUESTED, AVAILABLE, SOON_TO_ARRIVE, CONFIRMATION, CANCELLED, TRIP_COMPLETED
+}
