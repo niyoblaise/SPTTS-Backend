@@ -51,6 +51,7 @@ class PaymentServiceTest {
         verify(repo).save(any());
     }
 
+
     @Test
     void create_ShouldSaveAndReturnDto() {
         PaymentDto input = new PaymentDto(null, UUID.randomUUID(), UUID.randomUUID(), 30.0, PaymentStatus.PENDING);
